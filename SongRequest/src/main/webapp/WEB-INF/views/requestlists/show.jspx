@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_songrequest_domain_RequestList" object="${requestlist}" path="/requestlists" z="adJQz0VBepxO5IP4DCQ6+upDbLM=">
+        <field:display field="songRequests" id="s_com_songrequest_domain_RequestList_songRequests" object="${requestlist}" z="pRKmoOwmhXPvMeOgg6fnFk1mpas="/>
+        <field:display field="token" id="s_com_songrequest_domain_RequestList_token" object="${requestlist}" z="yBFkPA/qrSMLTmViF4t9NSVWEEk="/>
+        <field:display date="true" dateTimePattern="${requestList_createddate_date_format}" field="createdDate" id="s_com_songrequest_domain_RequestList_createdDate" object="${requestlist}" z="n6YV5uX0Wwq0JibkcAMLqwkVhvE="/>
+        <field:display date="true" dateTimePattern="${requestList_expiresdate_date_format}" field="expiresDate" id="s_com_songrequest_domain_RequestList_expiresDate" object="${requestlist}" z="YX9fav8ymmphnOUpvefOQ43uWGs="/>
+    </page:show>
+</div>

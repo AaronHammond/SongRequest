@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="requestlists/list">
+        <put-attribute name="body" value="/WEB-INF/views/requestlists/list.jspx"/>
+    </definition>
+<definition extends="default" name="requestlists/show">
+        <put-attribute name="body" value="/WEB-INF/views/requestlists/show.jspx"/>
+    </definition>
+<definition extends="default" name="requestlists/create">
+        <put-attribute name="body" value="/WEB-INF/views/requestlists/create.jspx"/>
+    </definition>
+<definition extends="default" name="requestlists/update">
+        <put-attribute name="body" value="/WEB-INF/views/requestlists/update.jspx"/>
+    </definition>
+</tiles-definitions>

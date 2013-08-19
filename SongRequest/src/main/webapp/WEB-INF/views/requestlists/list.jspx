@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_songrequest_domain_RequestList" items="${requestlists}" z="xtgpOIsyGgMIVPOVq20RDJUi0xM=">
+        <table:table data="${requestlists}" id="l_com_songrequest_domain_RequestList" path="/requestlists" z="q4pX4oHT+LizEHfnn8Sx1G2KM6s=">
+            <table:column id="c_com_songrequest_domain_RequestList_songRequests" property="songRequests" z="+/aaUklnDJdOQfrsCaXChkBDvns="/>
+            <table:column id="c_com_songrequest_domain_RequestList_token" property="token" z="Fu1RTHqdEggg+XGPg+wMtFTSdBw="/>
+            <table:column date="true" dateTimePattern="${requestList_createddate_date_format}" id="c_com_songrequest_domain_RequestList_createdDate" property="createdDate" z="pxHr5EdDeB4+pjG9PjF6ZQ+8W1c="/>
+            <table:column date="true" dateTimePattern="${requestList_expiresdate_date_format}" id="c_com_songrequest_domain_RequestList_expiresDate" property="expiresDate" z="BpvLtNEf4AFuVsfekw+zCxBQVrA="/>
+        </table:table>
+    </page:list>
+</div>
